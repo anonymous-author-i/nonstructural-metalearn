@@ -1,0 +1,18 @@
+{
+    "traj_num": 20,
+    "batch_num": 10,
+    "time_step": 0.02,
+    "force_output_dim": 3,
+    "force_frequency_levels": [0.0, 0.1, 0.25, 0.5],
+    "force_magnitude_bounds": [3.0, 3.0, 1.5, 0.75],
+    "torque_output_dim": 3,
+    "torque_frequency_levels": [0.0, 0.1, 0.25, 0.5, 1.0],
+    "torque_magnitude_bounds": [0.1, 0.1, 0.1, 0.05, 0.05],
+    "traj_max_waypoints": 5,
+    "waypoint_xbound": [-3, 3],
+    "waypoint_ybound": [-3, 3],
+    "waypoint_zbound": [-2, 2],
+    "discretization_bound": [200, 500],
+    "max_refu_mag": 1e3,
+    "u_bound": [0.0, 6.0]
+}
