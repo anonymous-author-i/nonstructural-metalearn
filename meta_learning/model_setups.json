@@ -1,0 +1,40 @@
+{
+    "MLP":
+    {
+        "state_select": [3,4,5],
+        "control_select": [],
+        "output_select": [3,4,5],
+        "hidden_sizes": [32, 32],
+        "drop_out": 0.0,
+        "history_len": 0
+    },
+    "MLPTimeEmbed":
+        {
+            "state_select": [3,4,5],
+            "control_select": [],
+            "output_select": [3,4,5],
+            "hidden_sizes": [32, 32],
+            "drop_out": 0.0,
+            "history_len": 4
+        },
+    "MetaMLP":
+        {
+            "state_select": [3,4,5],
+            "control_select": [],
+            "output_select": [3,4,5],
+            "base_reg": 1e-2,
+            "hidden_sizes": [32, 16],
+            "drop_out": 0.0,
+            "history_len": 0
+        },
+    "MetaMLPTimeEmbed":
+        {
+            "state_select": [3,4,5],
+            "control_select": [],
+            "output_select": [3,4,5],
+            "base_reg": 1e-2,
+            "hidden_sizes": [32, 3],
+            "drop_out": 0.0,
+            "history_len": 3
+        }
+}
