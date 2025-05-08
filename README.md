@@ -8,6 +8,6 @@ The modules and theirs contents are listed as follows.
 | ------------------ | ------------------------------------------------------------ |
 | meta_learning      | The algorithm for learning meta-representations with given batch trajectory data. |
 | online_adapt_sim   | Simulations of online model adaptation in quadrotor trajectory tracking control, also with the ablation study on the models. |
-| quadrotor_batchsim | A batch simulator that generates quadrotor motions for meta-learning, including a trajectory generator, a baseline controller and a disturbance generator. |
+| quadrotor_batchsim | A batch simulator that generates quadrotor motions for meta-learning, including a trajectory optimizer, a baseline controller and a disturbance generator. |
 
 This is merely a preliminary version. A more detailed documentation and a more streamlined file structure will be provided shortly.
