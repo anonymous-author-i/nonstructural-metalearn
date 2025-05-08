@@ -1,0 +1,1 @@
+{"MetaMLPTimeEmbed": {"state_select": [3, 4, 5], "control_select": [], "output_select": [3, 4, 5], "base_reg": 0.01, "hidden_sizes": [32, 3], "drop_out": 0.0, "history_len": 4, "baselearn_len": 20, "future_horizon": 0}}
